@@ -1,3 +1,17 @@
+body {
+    background-color: #BDD7D6;
+}
+.container {
+    background-color: #516365;
+    padding: 25px;
+    margin: 30px;
+    color: white;
+}
+.row{
+    text-align: center;
+    margin: 5px;
+    border-color: #BDD7D6;
+}
 .footer {
     background-color: #516365;
     position: fixed;

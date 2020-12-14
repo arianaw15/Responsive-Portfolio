@@ -1,19 +1,29 @@
 body {
     background-color: #BDD7D6;
+    position: absolute;
+    width: 100%;
 }
-.container {
+.container{
+    position: relative;
     background-color: #516365;
-    padding: 25px;
-    margin: 30px;
+    width: 100%;
+    padding: 10px;
+    margin:30px;
     color: white;
 }
 .row{
     text-align: center;
     border-color: #BDD7D6;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     float: center;
 }
+img {
+    position: relative;
+    height: 85%;
+  width: 100%;
+  object-fit:inherit;
+  }
 .float-left {
     margin: 10px;
 }
@@ -25,4 +35,16 @@ body {
     right: 0;
     height: 50px;
 
+}
+.btn {
+    background-color: white;
+    color: #516365;
+    font-weight: bold;
+    border-color: #BDD7D6;
+    border-radius: 5px;
+    border-width: 5px;
+}
+.btn:hover {
+    background-color: #EE6B61;
+    border-color: #BDD7D6;
 }

@@ -17,12 +17,12 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     float: center;
-}
-img {
-    position: relative;
     height: 85%;
   width: 100%;
   object-fit:inherit;
+}
+img {
+    position: relative;
   }
 .float-left {
     margin: 10px;
